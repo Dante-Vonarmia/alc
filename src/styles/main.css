@@ -1,0 +1,9 @@
+@import '@fontsource/roboto-condensed/400.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+@import './base.css';
+@import './layout.css';
+@import './menu.css';
+@import './hero.css';
+@import './leadership.css';
+@import './animations.css';

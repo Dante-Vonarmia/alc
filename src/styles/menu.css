@@ -1,0 +1,49 @@
+
+  .nav {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .backdrop-blur-lg {
+    backdrop-filter: blur(10px);  /* 背景模糊 */
+  }
+
+  .bg-opacity-20 {
+    background-color: rgba(0, 0, 0, 0.2);  /* 设置背景为半透明 */
+  }
+
+  /* 样式变化：当滚动超过一屏时 */
+  .sticky-nav {
+    background-color: rgba(0, 0, 0, 0.7); /* 更深的背景色 */
+    padding: 10px 20px;  /* 更窄的padding */
+    font-size: 14px;  /* 更小的字体 */
+  }
+
+  /* 为菜单项提供悬停效果 */
+  .hover\:text-gray-400:hover {
+    color: #b0b0b0;
+  }
+
+  /* Mobile Menu样式 */
+  .lg\:hidden {
+    display: block;
+  }
+  
+  .block {
+    display: block;
+  }
+
+  .p-2 {
+    padding: 0.5rem;
+  }

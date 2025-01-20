@@ -1,0 +1,29 @@
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splide__slide div {
+  width: 80%;
+  max-width: 900px;
+}
+
+.splide__slide img {
+  object-fit: cover;
+}
+
+.splide__arrow {
+  background: none;
+  color: gray;
+  border: none;
+}
+
+.splide__arrow--prev,
+.splide__arrow--next {
+  font-size: 2rem;
+}
+
+.splide__arrow svg {
+  fill: gray!important;
+}

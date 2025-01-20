@@ -1,0 +1,51 @@
+<script>
+  import Menu from '../components/+menu.svelte';
+  import Hero from '../components/+hero.svelte';
+  import Leadership from '../components/+leadership.svelte';
+  import Vision from '../components/+vision.svelte';
+  import WhatWeDo from '../components/+whatWeDo.svelte';
+  import Impact from '../components/+impact.svelte';
+  import News from '../components/+news.svelte';
+  import Footer from '../components/+footer.svelte';
+  import FullScreenSection from '../components/+fullScreenSection.svelte';
+</script>
+
+<Menu />
+
+<FullScreenSection backgroundColor="bg-white">
+  <section id="who-we-are">
+    <Hero />
+  </section>
+</FullScreenSection>
+
+<FullScreenSection backgroundColor="bg-gray-100">
+  <section id="vision">
+    <Vision />
+  </section>
+</FullScreenSection>
+
+<FullScreenSection backgroundColor="bg-white">
+  <section id="leadership">
+    <Leadership />
+  </section>
+</FullScreenSection>
+
+<FullScreenSection backgroundColor="bg-gray-100">
+  <section id="what-we-do">
+    <WhatWeDo />
+  </section>
+</FullScreenSection>
+
+<FullScreenSection backgroundColor="bg-white">
+  <section id="our-impact" class="min-h-screen">
+    <Impact />
+  </section>
+</FullScreenSection>
+
+<FullScreenSection backgroundColor="bg-gray-100">
+  <section id="what-we-do">
+    <News />
+  </section>
+</FullScreenSection>
+
+<Footer />
