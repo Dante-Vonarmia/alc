@@ -12,29 +12,29 @@
 
 <Menu />
 
-<FullScreenSection backgroundColor="bg-white">
-  <section id="who-we-are">
+<section id="who-we-are">
+  <FullScreenSection backgroundColor="bg-white">
     <Hero />
-  </section>
-</FullScreenSection>
+  </FullScreenSection>
+</section>
 
-<FullScreenSection backgroundColor="bg-gray-100">
-  <section id="vision">
+<section id="vision">
+  <FullScreenSection backgroundColor="bg-gray-100">
     <Vision />
-  </section>
-</FullScreenSection>
+  </FullScreenSection>
+</section>
 
-<FullScreenSection backgroundColor="bg-white">
-  <section id="leadership">
+<section id="leadership">
+  <FullScreenSection backgroundColor="bg-white">
     <Leadership />
-  </section>
-</FullScreenSection>
+  </FullScreenSection>
+</section>
 
-<FullScreenSection backgroundColor="bg-gray-100">
-  <section id="what-we-do">
+<section id="what-we-do">
+  <FullScreenSection backgroundColor="bg-gray-100">
     <WhatWeDo />
-  </section>
-</FullScreenSection>
+  </FullScreenSection>
+</section>
 
 <section id="our-impact" class="min-h-screen">
   <Impact />

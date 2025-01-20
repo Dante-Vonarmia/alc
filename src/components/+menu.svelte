@@ -22,9 +22,20 @@
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      // 确保滚动到目标元素顶部，阻止其他影响
+      element.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start', 
+        inline: 'nearest' 
+      });
+    }
+
+    // 如果是手机端，点击后自动关闭菜单
+    if (window.innerWidth <= 1024) {
+      isOpen = false;
     }
   };
+
 
   // 注册滚动监听器
   onMount(() => {
@@ -59,7 +70,7 @@
 
   <!-- Mobile Menu -->
   {#if isOpen}
-  <div class="lg:hidden mt-4 space-y-4 bg-opacity-80 bg-black backdrop-blur-sm rounded-lg">
+  <div class="lg:hidden mt-4 space-y-4 bg-opacity-80 bg-black backdrop-blur-sm rounded-lg transition-all duration-300 ease-in-out">
     <a href="javascript:void(0)" on:click={() => scrollToSection('who-we-are')} class="block text-lg p-2">Who We Are</a>
     <a href="javascript:void(0)" on:click={() => scrollToSection('leadership')} class="block text-lg p-2">Leadership & Team</a>
     <a href="javascript:void(0)" on:click={() => scrollToSection('what-we-do')} class="block text-lg p-2">What We Do</a>
