@@ -1,29 +1,37 @@
-.splide__slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.splide__slide div {
-  width: 80%;
-  max-width: 900px;
-}
+  /* Avatar Slider and Arrows */
+  .splide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
-.splide__slide img {
-  object-fit: cover;
-}
+  .splide__slide div {
+    width: 90%;
+    max-width: 900px;
+  }
 
-.splide__arrow {
-  background: none;
-  color: gray;
-  border: none;
-}
+  .splide__slide img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+  }
 
-.splide__arrow--prev,
-.splide__arrow--next {
-  font-size: 2rem;
-}
+  /* Position the arrows correctly */
+  .splide__arrow {
+    position: absolute;
+    background: none;
+    color: gray;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
-.splide__arrow svg {
-  fill: gray!important;
-}
+  .splide__arrow--prev {
+    left: 10px;
+  }
+
+  .splide__arrow--next {
+    right: 10px;
+  }

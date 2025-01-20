@@ -1,5 +1,6 @@
 <footer class="bg-gray-800 text-white py-16">
   <div class="max-w-6xl mx-auto px-6">
+    <!-- Footer Content -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
       <!-- Company Info -->
       <div>

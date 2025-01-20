@@ -36,16 +36,12 @@
   </section>
 </FullScreenSection>
 
-<FullScreenSection backgroundColor="bg-white">
-  <section id="our-impact" class="min-h-screen">
-    <Impact />
-  </section>
-</FullScreenSection>
+<section id="our-impact" class="min-h-screen">
+  <Impact />
+</section>
 
-<FullScreenSection backgroundColor="bg-gray-100">
-  <section id="what-we-do">
-    <News />
-  </section>
-</FullScreenSection>
+<section id="what-we-do">
+  <News />
+</section>
 
 <Footer />

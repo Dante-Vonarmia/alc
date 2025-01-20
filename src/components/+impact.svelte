@@ -1,4 +1,4 @@
-<div class="mt-12 text-center">
+<div class="mt-12 text-center px-4 sm:px-6 lg:px-12">
   <h2 class="text-5xl font-bold text-center text-gray-900">Our Impact</h2>
   <p class="mt-4 text-2xl text-center text-gray-700">Pioneering Sustainable Growth</p>
 

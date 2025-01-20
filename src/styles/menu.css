@@ -6,15 +6,7 @@
     top: 0;
     z-index: 100;
   }
-
-  .lg\:hidden {
-    display: none;
-  }
-
-  .lg\:flex {
-    display: flex;
-  }
-
+  
   .backdrop-blur-lg {
     backdrop-filter: blur(10px);  /* 背景模糊 */
   }
@@ -35,11 +27,6 @@
     color: #b0b0b0;
   }
 
-  /* Mobile Menu样式 */
-  .lg\:hidden {
-    display: block;
-  }
-  
   .block {
     display: block;
   }
