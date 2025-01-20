@@ -18,7 +18,7 @@
   </FullScreenSection>
 </section>
 
-<section id="vision">
+<section id="vision"> 
   <FullScreenSection backgroundColor="bg-gray-100">
     <Vision />
   </FullScreenSection>
@@ -31,9 +31,7 @@
 </section>
 
 <section id="what-we-do">
-  <FullScreenSection backgroundColor="bg-gray-100">
-    <WhatWeDo />
-  </FullScreenSection>
+  <WhatWeDo />
 </section>
 
 <section id="our-impact" class="min-h-screen">
